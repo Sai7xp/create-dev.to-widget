@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cdfffb;
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+h1 {
+  color: rgb(229, 54, 83);
+  margin-bottom: 0.1rem;
+}
+
+/* let's design cards */
+
+.credits {
+  text-align: center;
+  margin-bottom: 15px;
+  bottom: 0;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.inputfield {
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 6px;
+  outline: none;
+  background: #cdfffb;
+  border: 1px solid #222222;
+}
+
+.container {
+  height: 250px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  /* background-image: url("https://camo.githubusercontent.com/5f7c1e90c653c16fb10a1607c6ebc0d067e3e377/68747470733a2f2f74686570726163746963616c6465762e73332e616d617a6f6e6177732e636f6d2f692f726f3335333862793362326675706273363373722e706e67"); */
+  /* background-image: url("https://destatic.blob.core.windows.net/images/dev-logo.png"); */
+  box-shadow: 6px 6px 14px 0 rgba(112, 112, 112, 0.2);
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  /* background-position-y: bottom; */
+  
+}
+
+.container * {
+  /* position: absolute; */
+}
+
+.mini-wrapper {
+  height: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px 190px auto;
+  background: #111111;
+  opacity: 0.8;
+  border-radius: 8px 8px 0 0;
+  
+  /* margin-top: 10px; */
+}
+
+#userimg {
+  margin-top: 15px;
+  border-radius: 50%;
+  margin-left: 30px;
+  /* vertical-align: middle; */
+  border: 2px solid white;
+}
+
+.username {
+ margin-top: 15px;
+ margin-bottom: 3px;
+  color: #ffffff;
+}
+
+.view-profile {
+  
+  border: none;
+  padding: 3px;
+  background-color: #ffffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "poppins";
+}
+
+#location {
+  margin-top: 10px;
+  text-align: center;
+}
+#joined {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.social-links {
+  /* top: 180px; */
+  left: 75px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #111111;
+}
+
+.github-link {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #323232;
+  font-size: 14px;
+  border: 1px solid #111111;
+  padding: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+}
