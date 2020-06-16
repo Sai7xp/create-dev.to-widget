@@ -1,6 +1,6 @@
 const updateButton = document.querySelector(".button");
 updateButton.addEventListener("click", function getresults() {
-  var test = document.getElementById("inputfield").value;
+  var test = document.getElementById("inputfield").value.toLowerCase();
   let baseurl = "https://dev.to/api/users/by_username?url=" + test;
   fetch(`${baseurl}`)
     .then((devtodata) => {
